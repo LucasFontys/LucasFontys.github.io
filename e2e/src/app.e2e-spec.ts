@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('Welcome to IP4V-CountDown!');
+    expect(page.getTitleText()).toEqual('my-app app is running!');
   });
 
   afterEach(async () => {
